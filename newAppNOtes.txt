@@ -1,0 +1,6 @@
+make some success alert or error alert,
+
+make the design better for the notes dipositions
+
+
+make the title of note break word

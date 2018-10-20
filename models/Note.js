@@ -1,0 +1,14 @@
+const express = require("express")
+
+const mongoose = require("mongoose")
+
+
+const noteSchema = mongoose.Schema({
+    _id: mongoose.Schema.Types.ObjectId,
+    title: String,
+    description: String,
+    user_id: String,
+    createdAt: Date, 
+})
+
+module.exports = mongoose.model("Note",noteSchema)
